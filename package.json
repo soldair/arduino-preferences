@@ -1,0 +1,19 @@
+{
+  "name": "arduino-preferences",
+  "description": "parse and return object of global arduino preferences ",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/arduino-preferences.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "ini": "~1.2.1"
+  },
+  "devDependencies": {
+    "tape": "^2.13.2"
+  }
+}
